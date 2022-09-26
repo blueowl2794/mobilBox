@@ -1,0 +1,89 @@
+.agregar{
+    width:25%;
+    height:100vh;
+    background-color:#fff;
+    position:fixed;
+    right: 0;
+    top: 1em;
+    transition: all 0.5s;
+}
+.noAgregar{
+    width:20%;
+    height:100vh;
+    background-color:#fff;
+    position:fixed;
+    right: -30em;
+    top: 1em;
+    transition: all 0.5s;
+}
+.top{
+    width:100%;
+    height:4%;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    color:rgb(96, 96, 96);
+    background-color:rgb(238, 238, 238);
+}
+.form{
+    width:85%;
+    height:auto;
+    margin: auto;
+    margin-top: 2em ;
+    text-align:justify; 
+}
+.form > label > p{
+    margin-top:1.5em;
+    color:rgb(189, 189, 189) ;
+}
+.form > label > p >b{
+    color:rgb(255, 39, 39) ;
+}
+.form>label>input{
+    width:100%;
+    height:2.5em;
+    color:rgb(189, 189, 189) ;
+    border:1.7px solid rgb(219, 217, 217);
+    border-radius:0.5em;
+    margin-top:0.5em;
+    /* margin: 1em; */
+    /* text-align:justify; */
+}
+.select{
+    width:100%;
+    height:2.5em;
+    color:rgb(189, 189, 189) ;
+    border:1.7px solid rgb(219, 217, 217);
+    border-radius:0.5em;
+    margin-top:0.5em;
+}
+.form > div > p{
+    margin-top:1.5em;
+    color:rgb(189, 189, 189) ;
+}
+.form > div > p >b{
+    color:rgb(255, 39, 39) ;
+}
+.botones{
+    width:80%;
+}
+.Bagregar{
+    width:40%;
+    height:2.5em;
+    margin: 5em 0.5em 0 0;
+    font-weight: 600;
+    color: #fff;
+    background-color:rgb(152, 212, 96);
+    border: none;
+    border-radius:0.5em;
+}
+.Bcancelar{
+    width:40%;
+    height:2.5em;
+    margin: 5em 0.5em 0 0;
+    font-weight: 600;
+    color: rgb(152, 212, 96);
+    background-color:#fff;
+    border: 1px solid rgb(152, 212, 96);
+    border-radius:0.5em;
+}

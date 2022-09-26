@@ -1,0 +1,84 @@
+.top{
+    width: 97%;
+    margin: 1% 0 0% 0%;
+    padding:2em 0em 1em 3em;
+    color: rgb(72, 72, 72);
+    background-color: #fff;
+    border-radius: 0.5em;
+}
+
+.topT{
+    width: 97%;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content:space-between;
+}
+
+.topT>div{
+    display: flex;
+}
+
+.botonA{
+    width:10em;
+    /* height:2em; */
+    padding:0.5em;
+    margin-right: 1em;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(45, 225, 84);
+    border-radius: 0.5em;
+}
+
+.botonB{
+    width:6em;
+    /* height:2em; */
+    padding:0.5em;
+    margin-right: 1em;
+    color: rgb(45, 225, 84);
+    /* background-color: rgb(45, 225, 84); */
+    border: 1px solid rgb(45, 225, 84);
+    border-radius: 0.5em;
+}
+
+.espacio{
+    width:97%;
+    height:0.1em;
+    background-color:rgb(227, 227, 227);
+    margin-bottom: 1em;
+}
+
+.topB{
+    width:97%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.topBLeft{
+    display: flex;
+    margin-top: 1em;
+    color:rgb(156, 156, 156);
+}
+
+.topBLeft>select{
+    width:4em;
+    height:2em;
+    margin-left:2em ;
+    color:rgb(160, 158, 158);
+    border: none;
+}
+
+.topBRight{
+    color:rgb(173, 173, 173);
+}
+
+.topBRight>label>input{
+    height:2em;
+    margin: 1em ;
+    color:rgb(173, 173, 173);
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 0.5em;
+}
+
+.topBRight>label>input:focus{
+    outline: none;
+}

@@ -1,0 +1,136 @@
+.tabla{
+    width: 100%;
+    overflow: hidden;
+}
+.onTable{
+    width: 100%; 
+    background-color: #dddddd;
+    color: rgb(89, 89, 89);
+}
+.onTableTop{
+    height:2.5em;
+}
+.tr{
+    background-color: #fff;
+    /* overflow: hidden; */
+}
+.acciones{
+    width:13em;
+    height:10em;
+    position:fixed;
+    right: 10em;
+    bottom: 8em;
+    background-color:#ffffff;
+    border-radius: 0.5em;
+    text-align:justify;
+    /* overflow: hidden; */
+    transition: all 1s;
+}
+
+.acciones>div{
+    width: auto;
+    margin:1em 0 1em 0em;
+    padding:0.3em 0 0 2em;
+    font-size:1.2em;
+    font-weight:600;
+    /* overflow: hidden; */
+}
+.acciones>div:hover{
+    color:rgb(87, 210, 34);
+    background-color:#f0ffed;
+}
+.off{
+    width:13em;
+    height:10em;
+    position:fixed;
+    right: -20em;
+    /* top:0em; */
+    color:#ffffff;
+    background-color:#ffffff;
+    border-radius: 0.5em;
+    text-align:justify;
+    /* overflow: hidden; */
+    transition: all 0.1s;
+}
+.td{
+    height:3em;
+    display:flex;
+    align-items: center;
+    
+}
+.td > div{
+    width:1.5em;
+    height:1.5em;
+    margin:0 1em 0 1em;
+    font-size: 1.5em;
+    font-weight: 600;
+    color:rgb(0, 208, 255);
+    background-color: rgb(181, 241, 255);
+    border-radius: 50em;
+}
+
+.act{
+    width: 50%;
+    margin:auto;
+    padding:0.1em;
+    font-weight: 600;
+    color: rgb(11, 229, 0);
+    background-color:#d2ffc7;
+    border-radius: 20em;
+
+}
+
+.sinDatos{
+    width:100%;
+    background-color: #fff;
+}
+.sinDatos>img{
+    width:50%;
+}
+.bottom{
+    width:auto;
+    height:6em;
+    padding:1em 0 0 2em;
+    margin-bottom: 1em;
+    display :flex;
+    justify-content:space-between;
+    background-color: #fff;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+.bottomLeft{
+    color:rgb(167, 167, 167);
+}
+.pagination{
+    max-height: 1.8em;
+    margin-right: 5%;
+    display: flex;
+
+}
+
+.order{
+    border: none;
+    margin:0 0.5em 0 0.5em;
+    padding:0.1em 0.5em 0 0.5em;
+    border-radius: 1em;
+    color: rgb(96, 195, 63);
+    background-color: rgb(220, 220, 220);
+    
+}
+.subOrder{
+    width: 1.5em;
+    margin:0 1em 0 1em;
+    color:rgb(158, 158, 158);
+    border: none;
+    background-color:transparent;
+
+}
+
+.subOrderA{
+    width:2em;
+    height:2em;
+    border: none;
+    border-radius:50%;
+    color:rgb(255, 255, 255);
+    background-color:#56c83a;
+}
