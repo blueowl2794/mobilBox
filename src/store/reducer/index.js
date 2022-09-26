@@ -51,7 +51,7 @@ export const getInfo = (name) => async(dispatch) => {
     const filtro = name?name:""
     const API = "http://pruebasclaro.movilbox.net:81/desarrollo/test_mbox/public/api/1152694253/users";//esta deberia estar en el .env(obvio...xd)
 
-    await fetch(API)
+    await fetch(API,{ referrerPolicy: "unsafe_url"})
     .then(res=> res.json())
     .then((c)=>{
         dispatch(setInfo(c));
@@ -62,7 +62,7 @@ export const getInfo = (name) => async(dispatch) => {
 }
 export const getProfile = () => async(dispatch) => {
     const API = "http://pruebasclaro.movilbox.net:81/desarrollo/test_mbox/public/api/profiles";//esta deberia estar en el .env(obvio...xd)
-    await fetch(API)
+    await fetch(API,{ referrerPolicy: "unsafe_url"})
     .then(res=> res.json())
     .then((c)=>{
         dispatch(setProfile(c.profiles));
@@ -73,7 +73,7 @@ export const getProfile = () => async(dispatch) => {
 }
 export const getData = (id) => async(dispatch) => {
     const API = `http://pruebasclaro.movilbox.net:81/desarrollo/test_mbox/public/api/1152694253/users/${id}`;//esta deberia estar en el .env(obvio...xd)
-    await fetch(API)
+    await fetch(API,{ referrerPolicy: "unsafe_url"})
     .then(res=> res.json())
     .then((c)=>{
         console.log(c);
